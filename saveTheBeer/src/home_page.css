@@ -1,3 +1,25 @@
+* {
+	background-color: #ffffff;
+}
+
 .banner {
 	background-color: #4e4e4e;
+}
+
+.disclamer {
+	color: "red";
+	text-align: "center";
+}
+
+.title-wide {
+	font-size: 14;
+}
+
+.sub-title {
+	font-size: 12;
+	color: "gray";
+}
+
+.introduction {
+	font-size: 12;
 }
