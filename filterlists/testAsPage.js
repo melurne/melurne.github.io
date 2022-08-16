@@ -40,8 +40,10 @@ setTimeout(() => {
                 },
                 body: JSON.stringify({id:"extension", results: results})
             }).then(() => {
-                document.body.removeChild(capsule);
-                console.log("Data Logged");
+                setTimeout(() => {
+                    document.body.removeChild(capsule);
+                    console.log("Data Logged");
+                }, 1000);
             });
         });
     });
